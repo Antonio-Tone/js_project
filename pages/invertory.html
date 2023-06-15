@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style/invertory.css" />
+    <title>Inventory</title>
+  </head>
+  <body>
+    <!-- start of navbar -->
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary top-0 position-fixed w-100 z-1"
+      id="nav"
+    >
+      <div class="container-fluid">
+        <img src="/" alt="logo" />
+        <h4 class="navbar-brand active">Tony's Premium Cars</h4>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto" id="list">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/invertory.html">Inventory</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/contact.html">Contact us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/admin.html">Admin</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- supercar -->
+    <div class="container-fluid">
+      <h4 class="mx-auto my-5 text-center sc">Super Cars</h4>
+      <div class="row mx-auto" id="showroom"></div>
+      <!-- S U V -->
+      <h4 class="mx-auto text-center">S U V</h4>
+      <div class="row mx-auto" id="suv"></div>
+      <!-- luxury comfort -->
+      <h4 class="mx-auto text-center">Luxury Comfort</h4>
+      <div class="row mx-auto" id="lux"></div>
+    </div>
+
+    <!-- modal starts -->
+    <div class="modal modal-b" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Modal title</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body modal-b">
+            <p>
+              Modal body text goes here. Lorem ipsum, dolor sit amet consectetur
+              adipisicing elit. Expedita natus architecto vero incidunt quia id
+              optio provident fugiat, fuga ex voluptatibus voluptate voluptatum
+              consequatur, beatae perspiciatis nulla facere a accusantium.
+            </p>
+          </div>
+          <div class="modal-footer modal-b">
+            <!-- add to cart button that triggers offcanvas -->
+
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+            
+                       <!-- cart -->
+            
+     <div
+     class="offcanvas offcanvas-end "
+              tabindex="-1"
+              id="offcanvasRight"
+              aria-labelledby="offcanvasRightLabel" >
+           
+              <div class="offcanvas-header">
+                <h2 class="offcanvas-title mx-auto" id="offcanvasRightLabel">
+                  CART
+                  <hr>
+                </h2>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="canvas-b" id="cart">
+               <!-- <hr>
+               <img src="/dbx.jpg" alt="product image" class="img-thumbnail img" />
+               <p>Aston Martin DBX </p>
+               <div class="d-flex justify-content-between">
+                 <p>R1.9m</p>
+                </div>
+                 <hr> -->
+               </div>
+             </div>
+
+             <button
+      class="btn btn-primary d-flex justify-content-center mx-auto"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasRight"
+      aria-controls="offcanvasRight"
+    >
+      
+    </button>
+    
+                
+                
+
+    <script src="/script/invertory.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

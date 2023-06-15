@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(27,40,168);
+}
+
+#nav{
+    background-color: rgb(44,44,44) !important;
+}
+
+.nav-link, .active{
+    color: rgb(175,175,175) !important ;
+}
+
+.card{
+ background-color:white; 
+ /* color: rgb(175,175,175) !important; */   color:  rgb(20,39,44); 
+}
+.card:hover{
+    scale: 105%;
+    box-shadow: rgb(0,98,165) 0px 5px 5px 5px;
+}
+.sc{
+    margin-top: 90px !important;
+    color:  rgb(20,39,44); 
+}
+
+
+a:hover{
+  scale: 102%;
+ box-shadow: rgb(0,98,165) 0px 5px 5px 5px;
+ border-radius: 10px !important;
+
+}
+
+
+
+/* .modal-b{
+background-color:  rgb(20,39,44) !important;
+} */
+
+
+@media screen and (max-width: 500px) {
+    .offcanvas{
+        width: 19.5rem !important;     
+    }
+    .canvas-b{
+        margin-left: 5px !important;
+    }
+
+}
+  
+
+.offcanvas{
+    background-color:  rgb(20,39,44) !important; 
+ color: rgb(175,175,175) !important;
+ 
+.btn-close{
+  background-color: rgb(175,175,175) !important ;
+}
+
+.img{
+    height: 7rem;
+}
+}
+
+.canvas-b{
+    margin-left: 10px !important;
+}
+
+.btn{
+    margin-top: 5px !important;
+}
+
+  
+
+
+
+
