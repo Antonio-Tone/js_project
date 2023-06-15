@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(27,40,168);
+}
+
+#nav{
+    background-color: rgb(44,44,44) !important;
+}
+
+.nav-link, .active{
+    color: rgb(175,175,175) !important ;
+}
+a:hover{
+    scale: 102%;
+   box-shadow: rgb(0,98,165) 0px 5px 5px 5px;
+  border-radius: 10px !important;
+  }
+
+  .about{
+    margin-top: 120px !important;
+  }
+
+  .logo{
+    height: 120px;
+    width: 100px;
+    border-radius: 70px;
+  position: center;
+background-size: contain;
+   
+  }
+  #logo{
+    height: 50px;
+    width: 40px;
+    border-radius: 70px;
+    margin-right: 10px !important;
+  }
