@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link
+    href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+    rel="stylesheet"
+  />
+  <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" href="/style/admin.css">
+    <title>Admin</title>
+</head>
+<body>
+ <nav
+    class="navbar navbar-expand-lg bg-body-tertiary top-0 position-fixed w-100 z-1"
+    id="nav"
+  >
+    <div class="container-fluid">
+      <img src="/" alt="logo" />
+      <h4 class="navbar-brand active">Tony's Premium Cars</h4>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/index.html"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/invertory.html">Inventory</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/contact.html">Contact us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/admin.html">Admin</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  
+    <header>
+        <div class="container header">
+            <div class="row">
+                <div class="col-4 offset-4 mt-5">
+                    <h1 class="text-center">Inventory </h1>
+                    <input type="text" placeholder="VIN" class=" text-center input-item mx-auto d-flex justify-content-center">
+                    <input type="text" placeholder="NAME" class=" text-center input-item mx-auto d-flex justify-content-center">
+                    <input type="text" placeholder="BRAND" class=" text-center input-item mx-auto d-flex justify-content-center">
+                    <input type="text" placeholder="PRICE" class=" text-center input-item mx-auto d-flex justify-content-center">
+                    <input type="text" placeholder="IN STOCK" class=" text-center input-item mx-auto d-flex justify-content-center">
+                   
+                    <button class="btn-add">Add</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container-fluid content w-100 px-2 py-2">
+          <table border="3" class="w-100">
+            <tr>
+              <tr class=" text-center">
+                <th>VIN</th>
+                <th>NAME</th>
+                <th>BRAND</th>
+                <th>PRICE</th>
+                <th>IN STOCK</th>
+                <th>ADD/DELETE</th>
+              </tr>
+              <tr class="text-center" id="row">
+                <!-- <td>109</td>
+                <td>chiron</td>
+                <td>bugatii</td>
+                <td>12 000000</td>
+                <td>3</td>
+                  <td> <i class="fa-solid fa-pen-to-square"> </i>
+                    <i class="fa-solid fa-trash"> </i>
+                    </td> -->
+              </tr>
+            </tr>
+          </table>
+            
+</div>
+    </main>
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/script/admin.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    
+    <script src="https://kit.fontawesome.com/e09bf8c0bb.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+  </html>

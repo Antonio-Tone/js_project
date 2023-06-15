@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(27,40,168);
+    min-height: 100vh;
+}
+
+#nav{
+    background-color: rgb(44,44,44) !important;
+}
+
+.nav-link, .active{
+    color: rgb(175,175,175) !important ;
+}
+
+
+a:hover{
+    scale: 102%;
+   box-shadow: rgb(0,98,165) 0px 5px 5px 5px;
+   border-radius: 10px !important;
+  
+  }
+
+  .heading{
+    margin-top: 900px !important;
+  }
+
+  td,th{
+    border: 1px solid;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+  }
